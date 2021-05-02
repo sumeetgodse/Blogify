@@ -4,6 +4,7 @@ import { selectUserInput, setBlogData } from '../features/userSlice'
 import axios from "axios"
 import sad from "../sad.png";
 import "../styles/blogs.css"
+import "../styles/error.css"
 
 const Blogs = () => {
 
