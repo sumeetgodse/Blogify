@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.error{
+    top:300px;
+    left: 650px;
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.sad{
+    height: 200px;
+    width: 200px;
+}
+
+@media only screen and (max-width: 700px) {
+    .error{
+        top:300px;
+        left: 30px;
+        position: absolute;
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+    }
+    .sad{
+        height: 100px;
+        width: 100px;
+    }
+}
